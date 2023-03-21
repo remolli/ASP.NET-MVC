@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AprendendoMVC.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Win10\\Desktop\\GITHUB\\AprendendoMVC\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\Win10\\Desktop\\GITHUB\\AprendendoMVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
