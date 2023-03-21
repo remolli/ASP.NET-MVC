@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zb4uy/nD17X8w6QUYvGRo0XNzD7wzHelS4JQwE6ixL/gfqpcGh8RbZdxFNOGTyBfe6u+CDx7wi2WePGzj6spkg==",
+  "dgSpecHash": "1DzHfJYi+8NtGEb4Jbibl0fJ+rF0R3SzlQ0BdTbbWCmkJ7JAE5WMhsdt4BfCU0eN8/g2VbL1vYxYED8zDwIYjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Win10\\Desktop\\GITHUB\\AprendendoMVC\\AprendendoMVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Win10\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
