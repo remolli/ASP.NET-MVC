@@ -1,0 +1,21 @@
+﻿@model AprendendoMVC.Models.UserViewModel
+
+@{
+    Layout = null;
+}
+
+<link href="~/css/login.css" rel="stylesheet" />
+
+<section>
+    <h1>Autentificação</h1>
+
+    <form action="/Login/Test" method="post">
+
+        <input type="text" name="email" value="@Model.Email" placeholder="Username/E-mail"/>
+        <input type="password" name="password" value="@Model.Password" placeholder="Senha"/>
+        <a href="#">Esqueceu a senha?</a>
+
+        <button type="submit">Login</button>
+    </form>
+    <label>Não tem conta?</label> <a href="#">Clique Aqui</a>
+</section>
