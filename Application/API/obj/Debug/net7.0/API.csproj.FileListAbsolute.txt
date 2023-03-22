@@ -72,3 +72,5 @@ C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\obj\Debug\net7.0\scopedc
 C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\obj\Debug\net7.0\API.csproj.CopyComplete
 C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\bin\Debug\net7.0\API.xml
+C:\Users\Win10\Desktop\GITHUB\ASPNETMVC\Application\API\obj\Debug\net7.0\API.xml

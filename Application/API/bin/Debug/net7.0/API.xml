@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.UserController.Login(System.String,System.String)">
+            <summary>
+            Autentifica o usuário
+            </summary>
+            <param name="username">Username do usuário</param>
+            <param name="password">Senha do usuário</param>
+            <returns>OK</returns>
+        </member>
+    </members>
+</doc>
