@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "wMjywWy07kHJHySAC9YG6EvZuyG5xWZkMVAX1bE7NFI=",
+  "Hash": "RqkSwoTrVmG3FNNnL0LRecj57n6i9LyA8v1FjSCGC1A=",
   "Source": "AprendendoMVC",
   "BasePath": "_content/AprendendoMVC",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\Application\\API\\API.csproj",
+      "Version": 2,
+      "Source": "API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "AprendendoMVC\\wwwroot",
@@ -100,6 +112,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\UI\\AprendendoMVC\\wwwroot\\js\\login.js",
+      "SourceId": "AprendendoMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\UI\\AprendendoMVC\\wwwroot\\",
+      "BasePath": "_content/AprendendoMVC",
+      "RelativePath": "js/login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
       "Identity": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\UI\\AprendendoMVC\\wwwroot\\js\\site.js",

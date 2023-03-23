@@ -6,46 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "AprendendoMVC/1.0.0": {
+      "API/1.0.0": {
         "dependencies": {
-          "API": "1.0.0",
           "Common": "1.0.0",
-          "FluentValidation.AspNetCore": "11.2.2"
+          "Microsoft.AspNetCore.OpenApi": "7.0.1",
+          "Repository": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
-          "AprendendoMVC.dll": {}
-        }
-      },
-      "FluentValidation/11.2.1": {
-        "runtime": {
-          "lib/net6.0/FluentValidation.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.2.1.0"
-          }
-        }
-      },
-      "FluentValidation.AspNetCore/11.2.2": {
-        "dependencies": {
-          "FluentValidation": "11.2.1",
-          "FluentValidation.DependencyInjectionExtensions": "11.2.1"
-        },
-        "runtime": {
-          "lib/net6.0/FluentValidation.AspNetCore.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.2.2.0"
-          }
-        }
-      },
-      "FluentValidation.DependencyInjectionExtensions/11.2.1": {
-        "dependencies": {
-          "FluentValidation": "11.2.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.2.1.0"
-          }
+          "API.dll": {}
         }
       },
       "Microsoft.AspNetCore.OpenApi/7.0.1": {
@@ -60,7 +29,6 @@
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
-      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {},
       "Microsoft.OpenApi/1.4.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -107,17 +75,6 @@
           }
         }
       },
-      "API/1.0.0": {
-        "dependencies": {
-          "Common": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "7.0.1",
-          "Repository": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.5.0"
-        },
-        "runtime": {
-          "API.dll": {}
-        }
-      },
       "Common/1.0.0": {
         "runtime": {
           "Common.dll": {}
@@ -134,31 +91,10 @@
     }
   },
   "libraries": {
-    "AprendendoMVC/1.0.0": {
+    "API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "FluentValidation/11.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZrQD0TGd0mHqf/zErZOEaba8cBeInaJj02nqinO+0La3uE08sJ5ScTYqsCbdx9fLHsX8rh+5KH5RtL2eOUS+OA==",
-      "path": "fluentvalidation/11.2.1",
-      "hashPath": "fluentvalidation.11.2.1.nupkg.sha512"
-    },
-    "FluentValidation.AspNetCore/11.2.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jU/MHXqg9cnOU18dY75vorP2c2WDKMan4zegOPsoc34xZVjzTEtXP0fKvkDEdeaChUVooNWuRr27u9w3sYbEFA==",
-      "path": "fluentvalidation.aspnetcore/11.2.2",
-      "hashPath": "fluentvalidation.aspnetcore.11.2.2.nupkg.sha512"
-    },
-    "FluentValidation.DependencyInjectionExtensions/11.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WqR2kt0OidUCg9xS+YOoiDmdCu7EnYLLgQb/bX+5fTTVor+90dWmr1OdJaWlLZvg2nbwV9EfxA9FZp91+JmQtg==",
-      "path": "fluentvalidation.dependencyinjectionextensions/11.2.1",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.1": {
       "type": "package",
@@ -173,13 +109,6 @@
       "sha512": "sha512-Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "path": "microsoft.extensions.apidescription.server/6.0.5",
       "hashPath": "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512"
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.4.3": {
       "type": "package",
@@ -215,11 +144,6 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
-    },
-    "API/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Common/1.0.0": {
       "type": "project",

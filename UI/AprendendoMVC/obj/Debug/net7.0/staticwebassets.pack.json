@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\UI\\AprendendoMVC\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
       "Id": "C:\\Users\\Win10\\Desktop\\GITHUB\\ASPNETMVC\\UI\\AprendendoMVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
